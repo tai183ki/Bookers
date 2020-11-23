@@ -39,6 +39,16 @@ h1  {
     font-weight: bold;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 p, ol, ul, td {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
@@ -60,6 +70,12 @@ thead {
     border-color: inherit;
 }
 
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
 tr {
     display: table-row;
     vertical-align: inherit;
@@ -68,12 +84,6 @@ tr {
 
 th {
     padding-bottom: 5px;
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
 }
 
 td {
